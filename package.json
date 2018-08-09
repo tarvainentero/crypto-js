@@ -1,6 +1,6 @@
 {
-  "name": "crypto-js-ripemd128",
-  "title": "crypto-js-ripemd128",
+  "name": "ripemd128-js",
+  "title": "ripemd128-js",
   "description": "RIPEMD128 enchanced fork of JavaScript library of crypto standards. Based on crypto-js 3.9.1-1.",
   "version": "1.0.0",
   "homepage": "https://github.com/tarvainentero/crypto-js-ripemd128",
