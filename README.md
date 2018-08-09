@@ -1,6 +1,7 @@
 # crypto-js
 
-JavaScript library of crypto standards.
+Fork of JavaScript library of crypto standards with added RIPEMD128 support.
+RIPEMD128 algorithm taken from https://github.com/tomyun/crypto-js/issues/2. 
 
 ## Node.js (Install)
 
@@ -14,6 +15,18 @@ npm install crypto-js
 ```
 
 ### Usage
+
+ES6 import for typical API call signing use case:
+
+```javascript
+import sha256 from 'crypto-js/sha256';
+import hmacSHA512 from 'crypto-js/hmac-sha512';
+import Base64 from 'crypto-js/enc-base64';
+
+const message, nonce, path, privateKey; // ...
+const hashDigest = sha256(nonce + message);
+const hmacDigest = Base64.stringify(hmacSHA512(path + hashDigest, privateKey));
+```
 
 Modular include:
 
@@ -152,6 +165,7 @@ console.log(decryptedData);
 - ```crypto-js/hmac-sha512```
 - ```crypto-js/hmac-sha384```
 - ```crypto-js/hmac-sha3```
+- ```crypto-js/hmac-ripemd128```
 - ```crypto-js/hmac-ripemd160```
 
 ---
