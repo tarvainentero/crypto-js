@@ -3,8 +3,6 @@
 Fork of JavaScript library of crypto standards with added RIPEMD128 support.
 RIPEMD128 algorithm taken from https://github.com/tomyun/crypto-js/issues/2.
 
-Note: Changes are only done to master branch
-
 ## Node.js (Install)
 
 Requirements:

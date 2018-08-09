@@ -1,20 +1,9 @@
 {
-  "name": "crypto-js",
-  "title": "crypto-js",
-  "description": "JavaScript library of crypto standards.",
-  "version": "3.1.9",
-  "homepage": "http://github.com/brix/crypto-js",
-  "author": {
-    "name": "Evan Vosberg",
-    "url": "http://github.com/evanvosberg"
-  },
-  "repository": {
-    "type": "git",
-    "url": "http://github.com/brix/crypto-js.git"
-  },
-  "bugs": {
-    "url": "http://github.com/brix/crypto-js/issues"
-  },
+  "name": "crypto-js-ripemd128",
+  "title": "crypto-js-ripemd128",
+  "description": "RIPEMD128 enchanced fork of JavaScript library of crypto standards. Based on crypto-js 3.9.1-1.",
+  "version": "1.0.0",
+  "homepage": "https://github.com/tarvainentero/crypto-js-ripemd128",
   "license": "MIT",
   "scripts": {
     "build": "grunt build",
@@ -36,6 +25,7 @@
   "keywords": [
     "security",
     "crypto",
+    "RIPEMD128",
     "Hash",
     "MD5",
     "SHA1",

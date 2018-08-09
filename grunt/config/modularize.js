@@ -51,6 +51,10 @@ module.exports = {
                 "exports": "CryptoJS.SHA3",
                 "components": ["core", "x64-core", "sha3"]
             },
+            "ripemd128": {
+                "exports": "CryptoJS.RIPEMD128",
+                "components": ["core", "ripemd128"]
+            },
             "ripemd160": {
                 "exports": "CryptoJS.RIPEMD160",
                 "components": ["core", "ripemd160"]
@@ -84,6 +88,10 @@ module.exports = {
             "hmac-sha3": {
                 "exports": "CryptoJS.HmacSHA3",
                 "components": ["core", "x64-core", "sha3", "hmac"]
+            },
+            "hmac-ripemd128": {
+                "exports": "CryptoJS.HmacRIPEMD128",
+                "components": ["core", "ripemd128", "hmac"]
             },
             "hmac-ripemd160": {
                 "exports": "CryptoJS.HmacRIPEMD160",
