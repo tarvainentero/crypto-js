@@ -11,7 +11,7 @@ Requirements:
 - npm (Node.js package manager)
 
 ```bash
-npm install crypto-js
+npm install ripemd128-js
 ```
 
 ### Usage
